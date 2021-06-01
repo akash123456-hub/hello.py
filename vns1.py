@@ -44,10 +44,10 @@ print(thislist[2:5])
 #print(thislist[:4])
 #Range of Negative Indexes
 '''
-'''
+
 thislist = ["apple","banana","cherry","orange","kiwi","melon","mango"]
 print(thislist[-4:-1])
-'''
+
 
 
 
