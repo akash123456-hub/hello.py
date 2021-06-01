@@ -30,9 +30,13 @@ thislist = ["apple","banana","cherry"]
 thislist[1] = "blackcurrant"
 print(thislist)
 '''
+'''
 class Employee:
     company = "google"
     def getsalary(self):
         print("salary is 10k")
 harry = Employee()     
-harry.getsalary()   
+harry.getsalary()  
+'''
+
+
