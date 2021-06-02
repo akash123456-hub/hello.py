@@ -9,4 +9,5 @@ class Student(Person):
        super(). __init__(fname,lname)
        self.graduationyear = 2020
 x = Student("Akash","Kumar")
-print(x.graduationyear)      
+print(x.graduationyear)  
+    
