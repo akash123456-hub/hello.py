@@ -11,4 +11,5 @@ class Student(Person):
     def welcome(self):
         print("welcome",self.firstname,self.lastname,"to the class of",self.graduationyear) 
 x = Student("Akash","Kumar",2020)   
-x.welcome()        
+x.welcome() 
+
