@@ -11,11 +11,13 @@ class Train:
     def bookTicket(self):
         if(self.seats>0):
            print("your ticket has been booked! your seat number is{self.seat}") 
-           self.seats = self.seats-1
+           self.seats = self.seats-2
         else:
            print("sorry this train is full! kindly try in tatkal")
 intercity = Train("Intercity Express:14015", 90, 300)   
 intercity.getstatus() 
 intercity.bookTicket() 
-intercity.getstatus()    
+intercity.getstatus()
+
+
 
