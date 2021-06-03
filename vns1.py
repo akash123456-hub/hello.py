@@ -46,7 +46,7 @@ print(thislist[2:5])
 '''
 
 thislist = ["apple","banana","cherry","orange","kiwi","melon","mango"]
-print(thislist[-4:-1])
+print(thislist[-3:-1])
 
 
 
