@@ -22,6 +22,7 @@ class Train:
 
     def cancelTicket(self, seatNo):
         pass
+        
 
 intercity = Train("Intercity Express: 14015", 90, 2)
 intercity.getStatus() 
