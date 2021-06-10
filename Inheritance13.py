@@ -6,10 +6,6 @@ class Father:
     fathername = ""
     def father(self):
         print(self.fathername)
-class Grandfather:
-    grandfather = ""
-    def grandfather(self):
-        print(self.grandfather)
 
 class son(Mother,Father,Grandfather):
     def parents(self):
