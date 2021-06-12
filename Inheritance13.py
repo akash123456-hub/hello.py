@@ -9,7 +9,7 @@ class Father:
     fathername = ""
     def father(self):
         print(self.fathername)
- 
+
 # Derived class
 class Son(Mother, Father):
     def parents(self):
