@@ -14,11 +14,12 @@ class Programmer(Employee):
          self.age = age
     def showDetails(self):
         print(f"The age of programmer is {self.age}")
-ravi = ("Ravi", 20000,"Youtube")
+ravi = Programmer("Ravi", 20000,"Youtube")
 e = Employee()
 e.showDetails()
 p = Programmer()
 p.showDetails()
+
 
 
     
