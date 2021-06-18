@@ -1,8 +1,8 @@
-mytuple = ("apple", "banana", "cherry","mango","graps")
+mytuple = ("apple", "banana", "cherry","mango")
 myit = iter(mytuple)
 
 print(next(myit))
 print(next(myit))
 print(next(myit))
 print(next(myit))
-print(next(myit))
+
