@@ -1,25 +1,25 @@
+# Base class1
 class Mother:
     mothername = ""
     def mother(self):
         print(self.mothername)
+ 
+# Base class2
 class Father:
     fathername = ""
     def father(self):
         print(self.fathername)
-class Grandfather:
-    grandfather = ""
-    def grandfather(self):
-        print(self.grandfather)
 
-class son(Mother,Father,Grandfather):
+# Derived class
+class Son(Mother, Father):
     def parents(self):
-        print("Father:",self.fathername)
-        print("Mother:",self.mothername)
-        print("Grandfather:",self.grandfather)
-s1 = son()  
-s1.fathername = "Ram" 
-s1.mothername = "sita"  
-s1.grandfather = "Jignesh"
-s1.parents()   
+        print("Father :", self.fathername)
+        print("Mother :", self.mothername)
+ 
+# Driver's code
+s1 = Son()
+s1.fathername = "RAM"
+s1.mothername = "SITA"
+s1.parents()
 
 
